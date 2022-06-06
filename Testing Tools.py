@@ -13,6 +13,8 @@ bgreen="\033[1;32m"       # Green0
 bred="\033[1;31m"         # Red
 on_igreen="\033[0;102m"   # Green
 igreen="\033[0;92m"       # Green
+upurple="\033[4;35m"      # Purple
+biehite="\033[1;97m"      # White
 
 print(bicyan+'''
 $$$$$$$\  $$\ $$\                                 $$$$$$$$\                  $$\           
@@ -23,16 +25,16 @@ $$  __$$< $$ |$$ |  $$ | $$$$$$$ |$$ |  $$ |         $$ |$$ /  $$ |$$ /  $$ |$$ 
 $$ |  $$ |$$ |$$ |  $$ |$$  __$$ |$$ |  $$ |         $$ |$$ |  $$ |$$ |  $$ |$$ | \____$$\ 
 $$ |  $$ |$$ |$$ |  $$ |\$$$$$$$ |$$ |  $$ |         $$ |\$$$$$$  |\$$$$$$  |$$ |$$$$$$$  |
 \__|  \__|\__|\__|  \__| \_______|\__|  \__|         \__| \______/  \______/ \__|\_______/ '''+color_off)
-
+print(upurple+'''===================================================================================================='''+color_off)
 print(bgreen+'''CEO- Bangladash Hacking Help Centre     '''                                   +color_off)
 print(bred+'''CEO- Dark 420 Spamming Team     '''                              +color_off)
 print(bgreen+'''Tools Developer- Rihan Ahmed    '''                            +color_off)
-
+print(upurple+'''================================================================'''+color_off)
 usern='''Rihan'''
 passwd='''The'''
 
-inpuser=str(input('''Enter The Username: '''))
-inppass=str(input('''Enter The Password: '''))
+inpuser=str(input(biehite+'''Enter The Username: '''))
+inppass=str(input('''Enter The Password: '''+color_off))
 
 if usern==inpuser and passwd==inppass:
 	print(igreen+'''[✓] Username & Password Correct! '''+color_off)
@@ -41,18 +43,26 @@ else:
 	print(bred+'''[×] Wrong Username & Password!  '''+color_off)
 	sys.exit()
 
-print(blue+'''1/Facebook Hacking ''')  
-print('''2/Instagram Hacking ''') 
-print('''3/Free Fire Hacking ''')
-print('''4/PUBG Hacking ''')
-print('''5/Wifi Hacking ''')
-print('''6/Sim Hacking ''')
-print('''7/Location Hacking''')
-print('''8/Rihan Spesal Tools ''')
-print('''9/Camera Hacking ''')
-print('''10/Ip Tracking''')
-print('''11/OTP Bypass''')     
-print('''12/Call Bombing''')
-print('''13/SMS Bombing'''+color_off)
+print(biblue+'''[1] Facebook Hacking ''')  
+print('''[2] Instagram Hacking ''') 
+print('''[3] Fishing Tools ''')
+print('''[4] DDOS Attack ''')
+print('''[5] Auto Report''')
+print('''[6] Gamil Hacking''')
+print('''[7] Wifi Hacking ''')
+print('''[8] Sim Hacking ''')
+print('''[9] Call List Hacked''')
+print('''[10] Sms List Hacked''')
+print('''[11] Mobile Phone Hacking''')
+print('''[12] Location Hacking''')
+print('''[13] Rihan Spesal Tools ''')
+print('''[14] Camera Hacking ''')
+print('''[15] IP Tracking''')
+print('''[16] OTP Bypass''')     
+print('''[12] Call Bombing''')
+print('''[13] Gmail Bombing''')
+print('''[14] SMS Bombing'''+color_off)
+
 print(yellow+'''My Number: +8809638485201              '''+color_off)
-print('''Select Your Option:-''')
+
+(input('''Select Your Option:>>'''))
