@@ -18,10 +18,10 @@ git clone https://github.com/Rihan444/Rihan-Tool-s
 cd Rihan-Tool-s
 
 
-chmod +x 'Testing Tools.py'
+chmod +x Rihan_Tools.py
 
 
-python 'Testing Tools.py'
+python Rihan_Tools.py
 
 Done ✅😃
   Thank you 💓
