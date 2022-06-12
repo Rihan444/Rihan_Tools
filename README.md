@@ -12,10 +12,10 @@ pkg install python2
 pkg install git
 
 
-git clone https://github.com/Rihan444/Rihan-Tool-s
+https://github.com/Rihan444/Rihan_Tools
    
 
-cd Rihan-Tool-s
+cd Rihan_Tools
 
 
 chmod +x Rihan_Tools.py
