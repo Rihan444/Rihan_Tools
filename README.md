@@ -12,7 +12,7 @@ pkg install python2
 pkg install git
 
 
-https://github.com/Rihan444/Rihan_Tools
+git clone https://github.com/Rihan444/Rihan_Tools
    
 
 cd Rihan_Tools
